@@ -12,7 +12,7 @@ var collisionOfPaddle1WithBall = false;
 var collisionOfPaddle2WithBall = false;
 
 function preload() {
-  font = loadFont('Assets/BLOCKFONT.otf');
+  font = loadFont('BLOCKFONT.otf');
   
 }
 
