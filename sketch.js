@@ -69,6 +69,16 @@ function draw() {
     speedY = -5;
  }
   
+  if(paddle1.y < 0) {
+    paddle1.y = 0;
+  } else if (paddle1.y > window.innerHeight) {
+    paddle1.y = window.innerHeight - paddle1.h;
+  } else if(paddle2.y < 0) {
+    paddle2.y = 0;
+  } else if (paddle2.y > window.innerHeight) {
+    paddle2.y = window.innerHeight - paddle2.h;
+  }
+  
   if (keyIsDown(UP_ARROW)) {
     paddle2.y -= 5;
   }
