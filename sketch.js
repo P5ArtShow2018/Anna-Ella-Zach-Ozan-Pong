@@ -1,10 +1,10 @@
 // MAKE THE LABEL
 
-var paddle1 = { x: 0, y: 0, w: 25, h: 120};
-var paddle2 = { x: 0, y: 0, w: 25, h: 120};
+var paddle1 = { x: 0, y: 0, w: 25, h: 250};
+var paddle2 = { x: 0, y: 0, w: 25, h: 250};
 var ball = { x: 0, y: 0, w: 20, h: 20 };
-var speedX = 7.5;
-var speedY = 7.5;
+var speedX = 15;
+var speedY = 15;
 var player1 = 0;
 var player2 = 0;
 var font = undefined;
